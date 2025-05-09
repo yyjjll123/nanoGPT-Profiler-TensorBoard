@@ -11,9 +11,7 @@
 
 **隨後**，在終端輸入：
 ```bash
-....
 python train.py config/train_shakespeare_char.py     --wandb_log=False     --wandb_project=shakespeare-char     --batch_size=2     --block_size=32
-....
 ```
 即可啓動訓練；
 
