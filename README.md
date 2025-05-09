@@ -7,7 +7,7 @@
 
 **首先**，服務器裏確認工具版本，本人使用的TensorBoard工具版本為：2.15.2；其餘工具版本推薦為：Python：3.9+；Pytouch：pytorch_v2.2.1+ ；
 
-**然後**，修改GitHub上開源的nanoGPT代碼裏的train.py文件，將本代碼裏的train.py裏的代碼内容代替原内容；
+**然後**，需要修改GitHub上開源的nanoGPT代碼裏的train.py文件，即將本代碼裏的train.py裏的代碼内容代替原内容；
 
 **隨後**，在終端輸入`python train.py config/train_shakespeare_char.py     --wandb_log=False     --wandb_project=shakespeare-char     --batch_size=2     --block_size=32` 啓動訓練；
 
