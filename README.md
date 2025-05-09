@@ -2,7 +2,7 @@
 
 本項目為在naoGPT裏使用PyTorch對訓練數據進行收集並使用TensorBoard對手機後的數據進行可視化。   
 
-本次使用的源代碼來源于GitHub上開源的nanoGPT代碼，其地址為：https://github.com/karpathy/nanoGPT.git![image](https://github.com/user-attachments/assets/087642af-2b66-4797-875f-2e34da9cfa04)   
+本次使用的源代碼來源于GitHub上開源的nanoGPT代碼，其地址為：https://github.com/karpathy/nanoGPT.git
 ## 操作過程:
 
 **首先**，服務器裏確認工具版本，本人使用的TensorBoard工具版本為：2.15.2；其餘工具版本推薦為：Python：3.9+；Pytouch：pytorch_v2.2.1+ ；
