@@ -9,7 +9,13 @@
 
 **然後**，需要修改GitHub上開源的nanoGPT代碼裏的train.py文件，即將本代碼裏的train.py裏的代碼内容代替原内容；
 
-**隨後**，在終端輸入`python train.py config/train_shakespeare_char.py     --wandb_log=False     --wandb_project=shakespeare-char     --batch_size=2     --block_size=32` 啓動訓練；
+**隨後**，在終端輸入：
+```bash
+....
+python train.py config/train_shakespeare_char.py     --wandb_log=False     --wandb_project=shakespeare-char     --batch_size=2     --block_size=32
+....
+```
+即可啓動訓練；
 
 **接著**，在訓練完成後在終端輸入`tensorboard --logdir=./logs-5` ，再在瀏覽器打開本地地址http://localhost:6006 ，即可完成所有操作。
 
