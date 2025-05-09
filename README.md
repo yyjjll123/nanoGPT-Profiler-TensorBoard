@@ -5,7 +5,7 @@
 本次使用的源代碼來源于GitHub上開源的nanoGPT代碼，其地址為：https://github.com/karpathy/nanoGPT.git
 ## 操作過程:
 
-**首先**，服務器裏確認工具版本，本人使用的TensorBoard工具版本為：2.15.2；其餘工具版本推薦為：Python：3.9+；Pytouch：pytorch_v2.2.1+ ；
+**首先**，服務器裏確認工具版本，本人使用的TensorBoard工具版本為：2.15.2；其餘工具版本推薦為：Python：3.9+；Pytorch：pytorch_v2.2.1+ ；
 
 **然後**，需要修改GitHub上開源的nanoGPT代碼裏的train.py文件，即將本代碼裏的train.py裏的代碼内容代替原内容；
 
